@@ -1,4 +1,4 @@
-import { CourseInfoComponent } from './courses/course-info.compoenent';
+import { CourseInfoComponent } from './courses/course-info.component';
 import { Error404Component } from './error-404/error-404.component';
 import { NavBarComponent } from './navbar/nav-bar.component';
 import { ReplacePipe } from './pipe/replace.pipe';
