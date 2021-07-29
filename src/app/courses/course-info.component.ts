@@ -16,4 +16,8 @@ export class CourseInfoComponent implements OnInit {
     this.course = this.courseService.retrieveById(+this.activatedRoute.snapshot.paramMap.get('id'));
     /** o + antes do this converte string (padrão da rota) para number */
   }
+
+  save(): void {
+    this.courseService.save(this.course);
+  }
 }
